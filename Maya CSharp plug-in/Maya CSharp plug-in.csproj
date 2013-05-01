@@ -55,14 +55,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="openmayacpp">
-      <HintPath>C:\Program Files\Autodesk\Maya2013.5\bin\openmayacpp.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="openmayacs">
-      <HintPath>C:\Program Files\Autodesk\Maya2013.5\bin\openmayacs.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xaml" />
@@ -114,20 +106,22 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>cd "$(SolutionDir)Output\$(ProjectName)"
+    <PostBuildEvent>mkdir "$(SolutionDir)Output\$(ProjectName)" 2&gt;nul
+mkdir "$(SolutionDir)Output\$(ProjectName)\Properties" 2&gt;nul
+cd "$(SolutionDir)Output\$(ProjectName)"
 if exist "$(SolutionDir)Output\$(ProjectName).zip" del "$(SolutionDir)Output\$(ProjectName).zip"
 del *.* /s /q &gt; nul
-copy /Y "$(ProjectDir)$(ProjectName) - Copy.csproj" ".\$(ProjectName).csproj"
-copy /Y "$(ProjectDir)myPlugin.cs" .
-copy /Y "$(ProjectDir)myCommand.cs" .
-copy /Y "$(ProjectDir)myCommand.resx" .
-copy /Y "$(ProjectDir)myCommand.Designer.cs" .
-copy /Y "$(ProjectDir)myNode.cs" .
-copy /Y "$(ProjectDir)myNode.resx" .
-copy /Y "$(ProjectDir)myNode.Designer.cs" .
-copy /Y "$(ProjectDir)Properties\AssemblyInfo.cs" .\Properties
-copy /Y "$(ProjectDir)Template Data\*.*" .
-"C:\Program Files\WinRAR\WinRAR.exe" a -r "..\$(ProjectName).zip" *.*</PostBuildEvent>
+copy /Y "$(ProjectDir)$(ProjectName) - Copy.csproj" ".\$(ProjectName).csproj" &gt;nul
+copy /Y "$(ProjectDir)myPlugin.cs" . &gt;nul
+copy /Y "$(ProjectDir)myCommand.cs" . &gt;nul
+copy /Y "$(ProjectDir)myCommand.resx" . &gt;nul
+copy /Y "$(ProjectDir)myCommand.Designer.cs" . &gt;nul
+copy /Y "$(ProjectDir)myNode.cs" . &gt;nul
+copy /Y "$(ProjectDir)myNode.resx" . &gt;nul
+copy /Y "$(ProjectDir)myNode.Designer.cs" . &gt;nul
+copy /Y "$(ProjectDir)Properties\AssemblyInfo.cs" .\Properties &gt;nul
+copy /Y "$(ProjectDir)Template Data\*.*" . &gt;nul
+"C:\Program Files\WinRAR\WinRAR.exe" a -r "..\$(ProjectName).zip" *.*  &gt;nul</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

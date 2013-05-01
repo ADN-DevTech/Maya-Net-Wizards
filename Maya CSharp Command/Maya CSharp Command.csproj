@@ -74,12 +74,13 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>cd "$(SolutionDir)Output\$(ProjectName)"
+    <PostBuildEvent>mkdir "$(SolutionDir)Output\$(ProjectName)" 2&gt;nul
+cd "$(SolutionDir)Output\$(ProjectName)"
 if exist "$(SolutionDir)Output\$(ProjectName).zip" del "$(SolutionDir)Output\$(ProjectName).zip"
 del *.* /s /q &gt; nul
-copy /Y "$(ProjectDir)myCommand.cs" .
-copy /Y "$(ProjectDir)Template Data\*.*" .
-"C:\Program Files\WinRAR\WinRAR.exe" a -r "..\$(ProjectName).zip" *.*</PostBuildEvent>
+copy /Y "$(ProjectDir)myCommand.cs" . &gt;nul
+copy /Y "$(ProjectDir)Template Data\*.*" . &gt;nul
+"C:\Program Files\WinRAR\WinRAR.exe" a -r "..\$(ProjectName).zip" *.* &gt;nul</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
