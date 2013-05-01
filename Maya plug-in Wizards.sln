@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maya CSharp plug-in", "Maya CSharp plug-in\Maya CSharp plug-in.csproj", "{3F0D8631-4E71-4CEF-9813-A9042CB2BCAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maya CSharp Node", "Maya CSharp Node\Maya CSharp Node.csproj", "{8A1F2C3A-8862-4A18-B8B4-15C98067C16B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maya CSharp Command", "Maya CSharp Command\Maya CSharp Command.csproj", "{FB5A22EA-3691-4A27-A173-FA626A435843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maya CSharp Command With Undo", "Maya CSharp Command With Undo\Maya CSharp Command With Undo.csproj", "{5A2227F0-9243-49F9-8886-59E864353D3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F0D8631-4E71-4CEF-9813-A9042CB2BCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0D8631-4E71-4CEF-9813-A9042CB2BCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0D8631-4E71-4CEF-9813-A9042CB2BCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0D8631-4E71-4CEF-9813-A9042CB2BCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1F2C3A-8862-4A18-B8B4-15C98067C16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1F2C3A-8862-4A18-B8B4-15C98067C16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1F2C3A-8862-4A18-B8B4-15C98067C16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1F2C3A-8862-4A18-B8B4-15C98067C16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5A22EA-3691-4A27-A173-FA626A435843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5A22EA-3691-4A27-A173-FA626A435843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5A22EA-3691-4A27-A173-FA626A435843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5A22EA-3691-4A27-A173-FA626A435843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2227F0-9243-49F9-8886-59E864353D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2227F0-9243-49F9-8886-59E864353D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2227F0-9243-49F9-8886-59E864353D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2227F0-9243-49F9-8886-59E864353D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
