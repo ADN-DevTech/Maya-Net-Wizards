@@ -53,12 +53,10 @@
   <ItemGroup>
     <Reference Include="openmayacpp">
       <HintPath>$(MAYA_LOCATION)\bin\openmayacpp.dll</HintPath>
-	  <HintPath>c:\Program Files\Autodesk\Maya2013.5\bin\openmayacpp.dll</HintPath>
 	  <Private>False</Private>
     </Reference>
     <Reference Include="openmayacs">
       <HintPath>$(MAYA_LOCATION)\bin\openmayacs.dll</HintPath>
-	  <HintPath>c:\Program Files\Autodesk\Maya2013.5\bin\openmayacs.dll</HintPath>
 	  <Private>False</Private>
     </Reference>
     <Reference Include="System" />

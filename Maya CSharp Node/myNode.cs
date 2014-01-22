@@ -1,5 +1,4 @@
 ﻿using System;
-using Autodesk.Maya.Runtime;
 using Autodesk.Maya.OpenMaya;
 
 // This line is mandatory to declare a new node type in Maya
