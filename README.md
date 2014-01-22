@@ -1,9 +1,28 @@
-Maya-Net-Wizards
+Copyright (c) Autodesk, Inc. All rights reserved 
+
+Maya .Net API C# Wizards
+by Cyrille Fauvel - Autodesk Developer Network (ADN)
+January 2014
+
+Permission to use, copy, modify, and distribute this software in
+object code form for any purpose and without fee is hereby granted, 
+provided that the above copyright notice appears in all copies and 
+that both that copyright notice and the limited warranty and
+restricted rights notice below appear in all supporting 
+documentation.
+
+AUTODESK PROVIDES THIS PROGRAM "AS IS" AND WITH ALL FAULTS. 
+AUTODESK SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF
+MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE.  AUTODESK, INC. 
+DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
+UNINTERRUPTED OR ERROR FREE.
+ 
+ Maya-Net-Wizards
 ================
 
-A Maya C# Wizards for Wizards for Visual Studio
+A set of Maya API C# Wizards for Visual Studio
 
-The plug-in wizard for the Maya .NET SDK simplifies the construction of Maya plug-ins by providing a project template and class templates for defining: 
+The plug-in wizard for the Maya .NET API simplifies the construction of Maya plug-ins by providing a project template and class templates for defining: 
 - Command plug-ins with support for undo/redo  
 - Command plug-ins without support for undo/redo  
 - DAG node plug-ins  
@@ -12,6 +31,7 @@ The plug-in wizard for the Maya .NET SDK simplifies the construction of Maya plu
 Written by Cyrille Fauvel (Autodesk Developer Network)  
 http://www.autodesk.com/adn  
 http://around-the-corner.typepad.com/  
+
 
 1) Visual Studio Install
 ------------------------
