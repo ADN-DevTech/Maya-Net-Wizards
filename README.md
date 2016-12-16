@@ -28,7 +28,7 @@ The plug-in wizard for the Maya .NET API simplifies the construction of Maya plu
 - DAG node plug-ins  
 
 
-Written by Cyrille Fauvel (Autodesk Developer Network)
+Written by Cyrille Fauvel (Autodesk Developer Network),
 Maintained by Zhong Wu(Autodesk Developer Network)
 http://www.autodesk.com/adn  
 http://around-the-corner.typepad.com/  
