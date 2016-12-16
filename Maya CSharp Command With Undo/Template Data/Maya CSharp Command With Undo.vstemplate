@@ -7,7 +7,7 @@
     <TemplateID>Microsoft.CSharp.Class</TemplateID>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>90</SortOrder>
-    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
     <DefaultName>myCommand.cs</DefaultName>
   </TemplateData>
