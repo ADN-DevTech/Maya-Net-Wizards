@@ -13,7 +13,7 @@
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
     <PreviewImage>__PreviewImage.ico</PreviewImage>
-	<RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+	<RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
   </TemplateData>
   <TemplateContent>
     <Project File="Maya CSharp plug-in.csproj" ReplaceParameters="true">

@@ -28,7 +28,8 @@ The plug-in wizard for the Maya .NET API simplifies the construction of Maya plu
 - DAG node plug-ins  
 
 
-Written by Cyrille Fauvel (Autodesk Developer Network)  
+Written by Cyrille Fauvel (Autodesk Developer Network),
+Maintained by Zhong Wu(Autodesk Developer Network)
 http://www.autodesk.com/adn  
 http://around-the-corner.typepad.com/  
 
@@ -36,9 +37,9 @@ http://around-the-corner.typepad.com/
 1) Visual Studio Install
 ------------------------
 - copy the 'Maya CSharp plug-in.zip' to the 
-'&lt;current user&gt;/Documents/Visual Studio 2010/Templates/ProjectTemplates/Visual C#' directory.  
+'&lt;current user&gt;/Documents/Visual Studio 2012/Templates/ProjectTemplates/Visual C#' directory.  
 - copy the 'Maya CSharp Command with Undo.zip', 'Maya CSharp Command.zip', and 'Maya CSharp Node.zip' files 
-to the '&lt;current user&gt;/Documents/Visual Studio 2010/Templates/ItemTemplates/Visual C#' directory.  
+to the '&lt;current user&gt;/Documents/Visual Studio 2012/Templates/ItemTemplates/Visual C#' directory.  
 
 2) In Visual Studio, do as follows
 ----------------------------------
@@ -50,4 +51,6 @@ to the '&lt;current user&gt;/Documents/Visual Studio 2010/Templates/ItemTemplate
 
 a Wix/MSI installer project will be coming soon
 
-<b>Note:</b> Maya 2014 requires using the VC 10.0 Service Pack 1 runtime and the .Net Framework 4.0. You can use Visual Studio 2012 to develop C# plug-ins, but have to use the .Net 4.0 framework.
+<b>Note:</b> 
+- The latest plug-in wizard for the Maya .NET API is updated for Visual Studio 2012, and work for Maya 2015, 2016 and 2017. 
+- Maya 2014 requires using the VC 10.0 Service Pack 1 runtime and the .Net Framework 4.0. You can use Visual Studio 2012 to develop C# plug-ins, but have to use the .Net 4.0 framework.
