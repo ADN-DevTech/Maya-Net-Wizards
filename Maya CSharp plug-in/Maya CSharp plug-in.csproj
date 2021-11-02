@@ -124,7 +124,7 @@ copy /Y "$(ProjectDir)myNode.resx" . &gt;nul
 copy /Y "$(ProjectDir)myNode.Designer.cs" . &gt;nul
 copy /Y "$(ProjectDir)Properties\AssemblyInfo.cs" .\Properties &gt;nul
 copy /Y "$(ProjectDir)Template Data\*.*" . &gt;nul
-"C:\Program Files\WinRAR\WinRAR.exe" a -r "..\$(ProjectName).zip" *.*  &gt;nul</PostBuildEvent>
+powershell compress-archive -Force .\* '..\$(ProjectName).zip' &gt;nul</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

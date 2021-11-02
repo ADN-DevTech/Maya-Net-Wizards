@@ -83,7 +83,7 @@ if exist "$(SolutionDir)Output\$(ProjectName).zip" del "$(SolutionDir)Output\$(P
 del *.* /s /q &gt; nul
 copy /Y "$(ProjectDir)myNode.cs" . &gt;nul
 copy /Y "$(ProjectDir)Template Data\*.*" . &gt;nul
-"C:\Program Files\WinRAR\WinRAR.exe" a -r "..\$(ProjectName).zip" *.* &gt;nul</PostBuildEvent>
+powershell compress-archive -Force .\* '..\$(ProjectName).zip' &gt;nul</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
